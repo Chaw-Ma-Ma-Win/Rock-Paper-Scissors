@@ -39,7 +39,7 @@ span {
 
 .item-container {
   width: 70%;
-  height: 50%;
+  height: 70vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -52,19 +52,25 @@ span {
 }
 
 .rock,
-.paper {
-  cursor: pointer;
-  margin-right: 2rem;
-  width: 10rem;
-  height: 10rem;
-}
-
+.paper,
 .scissor {
+  border-radius: 50%;
   cursor: pointer;
   margin-right: 2rem;
   width: 8rem;
   height: 8rem;
-  margin-bottom: 12px;
+}
+
+.rock {
+  border: lightskyblue solid 10px;
+}
+
+.paper {
+  border: lightsalmon solid 10px;
+}
+
+.scissor {
+  border: lavender solid 10px;
 }
 
 .player1,
